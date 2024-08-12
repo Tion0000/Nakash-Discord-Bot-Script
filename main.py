@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import app_commands
 
 # Your Discord Bot Token
-DISCORD_TOKEN = 'MTI3MTcxMDczMzg1MTE2NDcxNA.G8291e.ubl6B3YXQ1fBl-8-gdqnP37aahdVh9SFwpBX1k'
+DISCORD_TOKEN = 'YOUR Token'
 
 # Setting up intents and creating the bot object
 intents = discord.Intents.default()
@@ -258,4 +258,4 @@ async def welcome_start(interaction: discord.Interaction):
 
 
 # Run the bot
-bot.run("MTI3MTcxMDczMzg1MTE2NDcxNA.G8291e.ubl6B3YXQ1fBl-8-gdqnP37aahdVh9SFwpBX1k")
+bot.run("YOUR Token")
